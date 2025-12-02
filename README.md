@@ -63,29 +63,27 @@ After export, the application prints a confirmation message listing all saved fi
 A styled and color-coded table showing the hourly forecast for the selected day.  
 Highlights future hours and includes emoji weather icons for easier interpretation.
 
-![Table_for_oneDay](https://github.com/user-attachments/assets/df6f68fb-7505-4395-a07e-016125318367)
+<img width="811" height="600" alt="image" src="https://github.com/user-attachments/assets/09354822-75f2-4113-b108-2d6a7d35a8c5" />
 
 
 ### 📊 Static Weather Graph
 A clean, static Plotly chart visualizing temperature, humidity, and other key metrics.  
 Ideal for exporting into reports or viewing without interactivity.
 
-![Static_graph](https://github.com/user-attachments/assets/fc19a0de-7485-4525-a32f-d57821449141)
-
+<img width="1901" height="873" alt="image" src="https://github.com/user-attachments/assets/576f180a-9181-47b8-bba9-bbcfb49a82e5" />
 
 
 ### 📈 Interactive Forecast Graph
 An interactive Plotly chart that allows zooming, panning, toggling parameters, and viewing detailed trends across the forecast.
 
-![Interaktiv_graph](https://github.com/user-attachments/assets/a744eb3a-e7ec-4574-a59e-31ea418162fa)
+<img width="1883" height="877" alt="image" src="https://github.com/user-attachments/assets/69e99f5b-2f14-4d82-8ae5-3cf9607a283a" />
 
 
 ### 🗺️ City Weather Map
 A fully interactive map showing the exact geographic location of the selected city,  
 including weather-based markers and additional contextual information.
 
-![Map](https://github.com/user-attachments/assets/96f2e8b6-d0c9-4b2a-b0c3-45ff0c0497b3)
-
+<img width="885" height="569" alt="image" src="https://github.com/user-attachments/assets/dc4909e6-a323-49f7-9047-71d6a6c5e4f6" />
 
 
 ### Notes
