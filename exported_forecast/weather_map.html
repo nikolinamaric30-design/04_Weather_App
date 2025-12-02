@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e0017b42eee52c0d0012709d5adf6df7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e0017b42eee52c0d0012709d5adf6df7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e0017b42eee52c0d0012709d5adf6df7 = L.map(
+                "map_e0017b42eee52c0d0012709d5adf6df7",
+                {
+                    center: [45.8130967, 15.9772795],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_55a01bae4f20d8e83a9c3c6b9dc6621e = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_55a01bae4f20d8e83a9c3c6b9dc6621e.addTo(map_e0017b42eee52c0d0012709d5adf6df7);
+        
+    
+            var marker_0871bf0d7694b9ccd065cb5fe2fff213 = L.marker(
+                [45.8130967, 15.9772795],
+                {
+}
+            ).addTo(map_e0017b42eee52c0d0012709d5adf6df7);
+        
+    
+            var icon_5623c0d68fac57fdfebbc4ba4ce97839 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_70ba188133639ab11e0cfb2155670b97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3216bb72d164c791468a8e9618df5b8a = $(`<div id="html_3216bb72d164c791468a8e9618df5b8a" style="width: 100.0%; height: 100.0%;">Grad Zagreb, Hrvatska<br>Temperature: 1.3°C 🌫️</div>`)[0];
+                popup_70ba188133639ab11e0cfb2155670b97.setContent(html_3216bb72d164c791468a8e9618df5b8a);
+            
+        
+
+        marker_0871bf0d7694b9ccd065cb5fe2fff213.bindPopup(popup_70ba188133639ab11e0cfb2155670b97)
+        ;
+
+        
+    
+    
+            marker_0871bf0d7694b9ccd065cb5fe2fff213.bindTooltip(
+                `<div>
+                     1.3°C 🌫️
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0871bf0d7694b9ccd065cb5fe2fff213.setIcon(icon_5623c0d68fac57fdfebbc4ba4ce97839);
+            
+    
+            tile_layer_55a01bae4f20d8e83a9c3c6b9dc6621e.addTo(map_e0017b42eee52c0d0012709d5adf6df7);
+        
+    
+                marker_0871bf0d7694b9ccd065cb5fe2fff213.setIcon(icon_5623c0d68fac57fdfebbc4ba4ce97839);
+            
+</script>
+</html>
